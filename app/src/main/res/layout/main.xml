@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:duplicateParentState="false"
+    android:background="?attr/color_bg_main">
+
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="#FFFFFFFF" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/singup_name"
+			android:textSize="20dp"/>
+		<TextView
+			android:id="@+id/tv_showusername"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="20dp"/>
+		<ImageView
+			android:id="@+id/iv_showuserimage"
+			android:layout_width="wrap_content"
+			android:layout_height="72dp"
+			android:layout_marginBottom="24dp"
+			android:contentDescription="@string/app_name" />
+	</LinearLayout>
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView
+            android:id="@+id/label_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:clickable="true"
+            android:text="@string/mode"
+            android:textColor="?attr/text_style"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/img_setting"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:src="?attr/icon_setting" />
+
+	</RelativeLayout>
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="#FFFFFFFF" />
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dp">
+		<ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:id="@+id/img_wifi"
+            android:src="?attr/icon_wifi"
+            android:clickable="false"
+            android:contentDescription="@string/choosewifi">
+
+		</ImageView>
+		<TextView
+			android:layout_width="5dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/img_spacer"
+			android:text=""
+			android:textSize="20sp"
+			android:clickable="false">
+
+		</TextView>
+
+		<ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:id="@+id/img_3g"
+            android:src="?attr/icon_3g"
+            android:clickable="false"
+            android:contentDescription="@string/choose3g">
+
+		</ImageView>
+
+	</LinearLayout>
+
+	<ListView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/listview">
+
+	</ListView>
+</LinearLayout>

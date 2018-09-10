@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="icon_setting">@drawable/ic_setting_night</item>
+        <item name="icon_3g">@drawable/eth_3g_night</item>
+        <item name="icon_wifi">@drawable/eth_wifi_night</item>
+        <item name="entry_text_color">@color/entry_text_color_day</item>
+        <item name="checkbox_style">@style/My_CheckBox_day</item>
+
+        <item name="color_bg_main">@color/color_bg_main_light</item>
+        <item name="text_style">@color/color_txt_day</item>
+    </style>
+
+    <style name="ThemeLight" parent="AppTheme">
+
+    </style>
+
+    <style name="ThemeDark" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_Accent</item>
+        <item name="entry_text_color">@color/entry_text_color_night</item>
+        <item name="color_bg_main">@color/color_bg_main_drak</item>
+        <item name="text_style">@color/color_txt_night</item>
+        <item name="icon_setting">@drawable/ic_setting_day</item>
+        <item name="icon_3g">@drawable/eth_3g_day</item>
+        <item name="icon_wifi">@drawable/eth_wifi_day</item>
+        <item name="checkbox_style">@style/My_CheckBox_night</item>
+    </style>
+
+
+    <style name="My_CheckBox_day" parent="@android:style/Widget.Material.CompoundButton.CheckBox">
+        <item name="android:colorControlActivated">@color/colorAccent</item>
+        <item name="android:colorControlNormal">@color/colorPrimary</item>
+    </style>
+    <style name="My_CheckBox_night" parent="@android:style/Widget.Material.CompoundButton.CheckBox">
+        <item name="android:colorControlActivated">#33ffff</item>
+        <item name="android:colorControlNormal">#48D1CC</item>
+    </style>
+
+
+
+
+
+</resources>

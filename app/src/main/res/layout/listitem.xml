@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemcheck_wifi"
+        android:theme="?attr/checkbox_style">
+
+    </CheckBox>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemcheck_3g"
+        android:theme="?attr/checkbox_style">
+
+    </CheckBox>
+    <ImageView
+        android:id="@+id/itemicon"
+        android:layout_width="65dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/defaulticon"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/itemtext"
+        android:text=""
+        android:textColor="?attr/entry_text_color"
+        android:layout_width="wrap_content"
+        >
+
+    </TextView>
+
+</LinearLayout>

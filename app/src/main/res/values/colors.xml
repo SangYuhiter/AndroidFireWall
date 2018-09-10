@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="entry_text_color_day">#000000</color>
+    <color name="entry_text_color_night">#ffffff</color>
+
+    <color name="color_primary">#ff333333</color>
+    <color name="color_primary_dark">#ff222222</color>
+    <color name="color_bg_main_light">#ffee</color>
+    <color name="color_bg_main_drak">#404040</color>
+    <color name="color_Accent">#ff4030</color>
+    <color name="color_txt_day">#ff6633</color>
+    <color name="color_txt_night">#ccffff</color>
+    <!--<color name="color_bg_chngtheme">#D9CFAD</color>-->
+    <color name="color_white">#D9CFAD</color>
+    <color name="color_black">#000</color>
+
+
+
+    <color name="test">#3333b5e5</color>
+</resources>

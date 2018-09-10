@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="color_bg_main" format="color|reference"/>
+    <attr name="text_style" format="color|reference"/>
+    <attr name="second_text_style" format="reference"/>
+    <attr name="icon_setting" format="reference"/>
+    <attr name="icon_wifi" format="reference"/>
+    <attr name="icon_3g" format="reference"/>
+    <attr name="entry_text_color" format="color|reference"/>
+    <attr name="checkbox_style" format="reference"/>
+
+</resources>
